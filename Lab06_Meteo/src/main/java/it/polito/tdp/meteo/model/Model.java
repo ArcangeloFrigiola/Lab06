@@ -135,11 +135,6 @@ public class Model {
 	/**
 	 * Calcola il costo di una determinata soluzione (totale)
 	 * 
-	 * <p>
-	 * Attenzione: questa funzione assume che i dati siano <b>tutti</b> presenti nel
-	 * database, ma nel nostro esempio ciò non accade (in alcuni giorni il dato è
-	 * mancante, per cui il risultato calcolato sarà errato).
-	 * 
 	 * @param parziale
 	 *            la soluzione (totale) proposta
 	 * @return il valore del costo, che tiene conto delle umidità nei 15 giorni e
